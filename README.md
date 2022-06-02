@@ -2,6 +2,10 @@
 
 This is a simple "Rock Paper & Scissors Game" where you(user) play with a computer.
 
+### Play Here
+
+Click to [Play](https://rjrahul007.github.io/rock-paper-sissors/)
+
 ### Build with:
 
  <img src='./images/html5-brands.svg' width="150">

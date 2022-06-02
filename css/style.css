@@ -1,5 +1,86 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
 
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Rubik Moonrocks", cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 3rem 1rem;
+  font-size: 1.1rem;
+  height: 100vh;
+  width: 100vw;
+}
+/* Typography */
+h1,
+h2,
+h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+}
+h4,
+p {
+  text-transform: capitalize;
+  font-weight: 100;
+}
+h1 {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+.score p {
+  font-size: 2.5rem;
+}
+/* Layout */
+img {
+  display: block;
+  width: 100%;
+  height: 120px;
+}
+
+.img-div {
+  outline: 2px solid #fff;
+  transition: all 0.5s ease-in-out;
+}
+.img-div:hover,
+.img-div:active,
+.btn-show:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px 1px;
+}
+.weapons,
+.score {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.score {
+  margin: 1rem auto;
+}
+#reset {
+  margin-bottom: 2rem;
+}
+span {
+  display: block;
+}
+.btn-hide {
+  display: none;
+}
+.btn-show {
+  font-weight: bold;
+  font-family: inherit;
+  display: inline-flex;
+  padding: 10px 20px;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
 }

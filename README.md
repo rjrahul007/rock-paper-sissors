@@ -4,9 +4,9 @@ This is a simple "Rock Paper & Scissors Game" where you(user) play with a comput
 
 ### Build with:
 
-- [![HTML5](./images/html5-brands.svg)](https://html.com/)
-- [![CSS5](./images/css3-alt-brands.svg)](https://css-tricks.com)
-- [![Js](./images/js-brands.svg)](https://www.javascript.com)
+- [![HTML5](./images/html5-brands.svg = 150x)](https://html.com/)
+- [![CSS5](./images/css3-alt-brands.svg = 150x)](https://css-tricks.com)
+- [![Js](./images/js-brands.svg = 150x)](https://www.javascript.com)
 
 ### Resources
 

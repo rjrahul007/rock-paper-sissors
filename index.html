@@ -14,9 +14,35 @@
       <p>Do you have what it takes to win?</p>
       <h3>Choose your weapon!</h3>
       <div class="weapons">
-        <img src="./images/rock.jpg" alt="" />
-        <img src="./images/paper.jpg" alt="" />
-        <img src="./images/scissors.jpg" alt="" />
+        <div class="img-div" aria-valuetext="rock">
+          <img src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="img-div" aria-valuetext="paper">
+          <img src="./images/paper.jpg" alt="" />
+        </div>
+        <div class="img-div" aria-valuetext="scissors">
+          <img src="./images/scissors.jpg" alt="" />
+        </div>
+      </div>
+      <div class="score">
+        <div class="user">
+          <h4>You</h4>
+          <p id="user-score">0</p>
+        </div>
+        <div class="computer">
+          <h4>computer</h4>
+          <p id="computer-score">0</p>
+        </div>
+        <div class="chance">
+          <h4>Chance left</h4>
+          <p id="chance-left">5</p>
+        </div>
+      </div>
+      <div class="message-reset">
+        <p class="message" id="message">
+          It's a best of 5<span> Good Luck! Human 😉</span>
+        </p>
+        <button class="btn-hide" id="reset">Play Again</button>
       </div>
     </section>
     <script src="./js/main.js"></script>
